@@ -1,0 +1,14 @@
+name: Foodstuffs
+version: ${project.version}
+main: com.gmail.mcdlutze.foodstuffs.Main
+description: Allows
+
+commands:
+  eat:
+    description: Eat an edible item to restore health eliminate hunger.
+    permission: foodstuffs.eater
+
+permissions:
+  foodstuffs.eater:
+    description: Allows use of the /eat command
+    default: true
